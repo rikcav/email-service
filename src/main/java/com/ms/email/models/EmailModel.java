@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "TB_EMAIL")
 public class EmailModel {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long emailId;
